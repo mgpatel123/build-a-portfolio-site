@@ -1,0 +1,59 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+.container {
+	max-width: 960px;
+	
+}
+
+.super-title {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 959px) {
+	.title-logo {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.fwimages {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.fwlable {
+		text-align: center;
+	}
+
+	.super-title{
+		text-align: center;
+	}
+
+	.mini-title{
+		text-align: center;
+	}
+
+
+}
+
+hr {
+	border-style: solid;
+    border-width: 3px;
+    border-color: #BCBBBB;
+}
